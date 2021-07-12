@@ -14,11 +14,17 @@ function Brands() {
     return (
         <div>
                 <div className="brands-box">
-                    <img src={Ferrari} alt="Ferrari" className="ferrari la"/>
-                    <img src={Microsoft} alt="Mikrosoft" className="microsoft la"/>
-                    <img src={National} alt="National" className="national la"/>
-                    <img src={Deloitto} alt="deloitto" className="deliotto la"/>
-                    <img src={Google} alt="Google" className="google la"/>
+                    <img src={Ferrari} alt="Ferrari" className="ferrari la" data-aos="zoom-in"
+     data-aos-duration="1000"
+     data-aos-easing="ease-in-sine"/>
+                    <img src={Microsoft} alt="Mikrosoft" className="microsoft la" data-aos="zoom-in"
+     data-aos-duration="1000"/>
+                    <img src={National} alt="National" className="national la" data-aos="zoom-in"
+     data-aos-duration="1000"/>
+                    <img src={Deloitto} alt="deloitto" className="deliotto la" data-aos="zoom-in"
+     data-aos-duration="1000"/>
+                    <img src={Google} alt="Google" className="google la" data-aos="zoom-in"
+     data-aos-duration="1000"/>
                 </div>
                 <div className="subscribe-box">
                     <div className="subscribe-left">
