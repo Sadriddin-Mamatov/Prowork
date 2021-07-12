@@ -1,0 +1,46 @@
+.designthings{
+    display: flex;
+    padding: 8%;
+    color:#56597A;
+
+}
+
+.design-left-box{
+    width:50%;
+}
+.design-right-box{
+    width:50%;
+}
+.design-image{
+    width:90%;
+}
+.red-design{
+    color:#F78CB6;
+}
+.design-header{
+    width: 70%;
+}
+.design-p{
+    width:70%;
+    line-height:28px;
+}
+@media only screen and (max-width:960px){
+    .designthings{
+        display: block;
+    }
+    .design-left-box{
+        width:100%;
+    }
+    .design-right-box{
+        width:100%;
+    }
+    .design-header{
+        width: 100%;
+        font-size:25px;
+    }
+    .design-p{
+        width:90%;
+        font-size:14px;
+        line-height:22px;
+    }
+}

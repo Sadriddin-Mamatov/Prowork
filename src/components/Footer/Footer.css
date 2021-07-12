@@ -1,0 +1,42 @@
+.footer{
+    background-image: url("../../img/Vector\ 4.png");
+    background-repeat: no-repeat;
+    background-position: -10% 100%;
+    background-attachment: fixed;
+    height:100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:60vh;
+}
+
+.ins{
+    background-color: #fff;
+    color:#A7A7A7;
+    font-size:35px;
+    margin-right: 15px;
+    border-radius: 50%;
+    padding:5px;
+    box-shadow: 0 0 5px 1px;
+}
+.tw{
+    color:#F78CB6;
+}
+.bottom{
+    background-color: #F78CB6;
+    color: #fff;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.WebImage{
+    margin-right: 20px;
+}
+@media only screen and (max-width:960px){
+    .footer{
+        flex-wrap: wrap;
+    }
+    .bottom{
+        margin-top: 100px;
+    }
+}
